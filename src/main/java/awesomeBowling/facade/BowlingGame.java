@@ -13,4 +13,8 @@ public interface BowlingGame {
     String reviewScore();
 
     void initialFrames();
+
+    int getCurrent();
+
+
 }

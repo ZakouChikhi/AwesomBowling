@@ -1,6 +1,8 @@
 package awesomeBowling.exception;
 
 public class GameOverException extends Exception {
-    public GameOverException(String s) {
+    public GameOverException(String errorMessage) {
+        super(errorMessage);
     }
+
 }

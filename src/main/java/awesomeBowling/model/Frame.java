@@ -8,6 +8,7 @@ public class Frame {
     private boolean isSpare;
     private boolean isStrike;
 
+
     public Frame() {
         this.firstRoll= new Roll();
         this.secondRoll=new Roll();
